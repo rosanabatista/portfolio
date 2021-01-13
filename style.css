@@ -59,7 +59,7 @@ ul {
   height: 100vh;
 }
 
-/* card */
+/* card credits to: https://codepen.io/JavaScriptJunkie/pen/WgRBxw?editors=1100*/
 .icon {
   font-size: 20px;
   color: #415164;
@@ -70,8 +70,8 @@ ul {
   position: relative;
   max-width: 800px;
   margin: auto;
-  background: #deefed;
-  box-shadow: 0px 10px 10px #a1a3a3;
+  background: #fff;
+  box-shadow: 2px 15px 15px 5px #a1a3a3;
   padding: 25px;
   border-radius: 25px;
   height: 400px;
