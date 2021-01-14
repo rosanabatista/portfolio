@@ -36,28 +36,30 @@
             </div>
         </div>
     </nav>
-    <section>
-        <div class="container intro">
-            <div class="row intro-text">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <h1>Hi, I'm a web developer available for hiring. </h1>
-                    <h4>I believe that technology can make a difference and I want
-                        to be part of this change, specially if it is focused on accessibility.</h4>
-                </div>
+    <section class="container vh-100 d-flex flex-column align-items-center justify-content-center">
+        <div class="row align-items-center text-center">
+            <div class="col-lg-4 col-sm-12 col-md-4 ">
+                <img src="/IMG_8259.JPG" alt="a picture of Rosana" class="rounded-circle w-50 m-3">
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12">
+                <h1>Hi, I'm Rosana. </h1>
+                <h4>I believe that technology can make a difference and I want
+                    to be part of this change, specially if it is focused on accessibility.</h4>
             </div>
         </div>
     </section>
-    <section>
-        <div class="container" id='about'>
-            <div class="row about">
-                <div class="col-lg-6 col-md-12 col-sm-12 center about-me">
+    <section class="d-flex align-items-center text-center about" id='about'>
+        <div class="container vh-100 d-flex">
+            <div class="row w-100 align-content-center">
+                <div class="col-lg-6 col-md-12 col-sm-12 align-self-center about-me">
                     <h2 class="text-uppercase">About me</h2>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 center list">
-                    <ul>
+                <div class="col-lg-6 col-md-12 col-sm-12 list">
+                    <ul class="text-start">
                         <li>I'm a podcaster</li>
                         <li>Cake designer for fun</li>
                         <li>Love decorating my house</li>
+                        <li>More than 30 plants in an apartment</li>
                         <li>I'm a little bit shy but once I know the person I’m very opened and talkative</li>
                         <li>Love making lists</li>
                     </ul>
@@ -65,71 +67,70 @@
             </div>
         </div>
     </section>
-    <section class="vh-100 d-flex align-items-center text-center" id='projects'>
-        <div class="container">
-            <h2 class="text-uppercase mb-5">Projects</h2>
-            <div class="blog-slider">
-                <div class="blog-slider__wrp swiper-wrapper">
-                    <div class="blog-slider__item swiper-slide">
-                        <div class="blog-slider__img">
+    <section class="d-flex align-items-center text-center" id='projects'>
+        <div class="container vh-100">
+            <div class="row">
+                <h2 class="text-uppercase mt-5 pt-5">Projects</h2>
+                <div class="blog-slider">
+                    <div class="blog-slider__wrp swiper-wrapper">
+                        <div class="blog-slider__item swiper-slide">
+                            <div class="blog-slider__img">
 
-                            <img src="/greatPlaces.jpg" alt="great places logo">
-                        </div>
-                        <div class="blog-slider__content">
-                            <span class="blog-slider__code">NodeJS | ReactJS</span>
-                            <div class="blog-slider__title">greatPlaces</div>
-                            <div class="blog-slider__text">Search engine for restaurants with filters for accessibility.
+                                <img src="/greatPlaces.jpg" alt="great places logo">
                             </div>
-                            <a href="https://great-places-client.herokuapp.com/" class="icon" target="_blank"><i
-                                    class="fas fa-external-link-alt"></i></a>
-                            <a href="https://github.com/rosanabatista/great-place-server" class="icon"
-                                target="_blank"><i class="fab fa-github"></i></a>
+                            <div class="blog-slider__content">
+                                <span class="blog-slider__code">NodeJS | ReactJS</span>
+                                <div class="blog-slider__title">greatPlaces</div>
+                                <div class="blog-slider__text">Search engine for restaurants with filters for
+                                    accessibility.
+                                </div>
+                                <a href="https://great-places-client.herokuapp.com/" class="icon" target="_blank"><i
+                                        class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/rosanabatista/great-place-server" class="icon"
+                                    target="_blank"><i class="fab fa-github"></i></a>
 
+                            </div>
                         </div>
-                    </div>
-                    <div class="blog-slider__item swiper-slide">
-                        <div class="blog-slider__img">
-                            <img src="/cuisiner.png" alt="cuisiner logo">
+                        <div class="blog-slider__item swiper-slide">
+                            <div class="blog-slider__img">
+                                <img src="/cuisiner.png" alt="cuisiner logo">
+                            </div>
+                            <div class="blog-slider__content">
+                                <span class="blog-slider__code">NodeJS | Bootstrap | MongoDB</span>
+                                <div class="blog-slider__title">Cuisiner</div>
+                                <div class="blog-slider__text">Reinvent the way you create groceries lists.</div>
+                                <a href="https://cuisiner-app.herokuapp.com/" class="icon" target="_blank"><i
+                                        class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/querien/Project2" class="icon" target="_blank"><i
+                                        class="fab fa-github"></i></a>
+                            </div>
                         </div>
-                        <div class="blog-slider__content">
-                            <span class="blog-slider__code">NodeJS | Bootstrap | MongoDB</span>
-                            <div class="blog-slider__title">Cuisiner</div>
-                            <div class="blog-slider__text">Reinvent the way you create groceries lists.</div>
-                            <a href="https://cuisiner-app.herokuapp.com/" class="icon" target="_blank"><i
-                                    class="fas fa-external-link-alt"></i></a>
-                            <a href="https://github.com/querien/Project2" class="icon" target="_blank"><i
-                                    class="fab fa-github"></i></a>
-                        </div>
-                    </div>
 
-                    <div class="blog-slider__item swiper-slide">
-                        <div class="blog-slider__img">
-                            <img src="/findthepic.png" alt="find the pic logo">
+                        <div class="blog-slider__item swiper-slide">
+                            <div class="blog-slider__img">
+                                <img src="/findthepic.png" alt="find the pic logo">
+                            </div>
+                            <div class="blog-slider__content">
+                                <span class="blog-slider__code">JavaScript | HTML | CSS</span>
+                                <div class="blog-slider__title">Find the pic!</div>
+                                <div class="blog-slider__text">Browser game to train your focus and attention.</div>
+                                <a href="https://rosanabatista.github.io/find-the-pic/" target='_blank' class="icon"><i
+                                        class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/rosanabatista/find-the-pic" class="icon" target="_blank"><i
+                                        class="fab fa-github"></i></a>
+                            </div>
                         </div>
-                        <div class="blog-slider__content">
-                            <span class="blog-slider__code">JavaScript | HTML | CSS</span>
-                            <div class="blog-slider__title">Find the pic!</div>
-                            <div class="blog-slider__text">Browser game to train your focus and attention.</div>
-                            <a href="https://rosanabatista.github.io/find-the-pic/" target='_blank' class="icon"><i
-                                    class="fas fa-external-link-alt"></i></a>
-                            <a href="https://github.com/rosanabatista/find-the-pic" class="icon" target="_blank"><i
-                                    class="fab fa-github"></i></a>
-                        </div>
+                        <div class="blog-slider__pagination"></div>
                     </div>
-
                 </div>
-                <div class="blog-slider__pagination"></div>
             </div>
         </div>
     </section>
     <section class="vh-100 d-flex align-items-center" id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-sm-12 col-md-6 d-flex flex-column align-items-center justify-content-center">
-                    <img src="/IMG_8259.JPG" alt="a picture of Rosana" class="rounded-circle w-50 m-3">
-                </div>
                 <div
-                    class="col-lg-6 col-sm-12 col-md-6 d-flex flex-column align-items-center justify-content-center pt-4 pb-3 contacts">
+                    class="col-lg-12 col-sm-12 col-md-12 d-flex flex-column align-items-center justify-content-center pt-4 pb-3 contacts">
                     <h2 class="text-uppercase mb-3">Let's talk. Contact me:</h2>
                     <p class="location">
                         <i class="fas fa-map-marker-alt"></i>

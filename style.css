@@ -13,41 +13,19 @@ body {
   background-color: #fff;
 }
 
-.intro {
-  background-image: url("/background.png");
-  background-size: cover;
-  height: 100vh;
-  text-align: center;
-}
-.intro-text {
-  height: 100vh;
-  flex-direction: column;
-  justify-content: center;
-}
 h4 {
   font-weight: 200;
 }
-
-.about {
-  height: 100vh;
-  background-image: url("/background-about.png");
-  background-size: cover;
-}
-
 ul {
   list-style: none;
   padding: 0 50px;
   font-weight: 300;
 }
 
-.center {
-  text-align: center;
-  align-self: center;
-}
-
 @media (max-width: 769px) {
   .about-me {
     align-self: flex-end;
+    margin-bottom: 10px;
   }
   .list {
     align-self: flex-start;
