@@ -12,6 +12,7 @@ body {
 .navbar {
   background-color: #fff;
 }
+
 .intro {
   background-image: url("/background.png");
   background-size: cover;
