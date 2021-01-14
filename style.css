@@ -21,7 +21,36 @@ ul {
   padding: 0 50px;
   font-weight: 300;
 }
+.about {
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
 
+.about::after {
+  background-image: url("/pexels-dominika-roseclay-1036841.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+}
+
+.about-wrapper {
+  background-color: #deefed;
+  border-radius: 30px;
+}
+
+.about-wrapper::after {
+  opacity: 0.5;
+  content: "";
+}
 @media (max-width: 769px) {
   .about-me {
     align-self: flex-end;
@@ -29,6 +58,12 @@ ul {
   }
   .list {
     align-self: flex-start;
+  }
+}
+
+@media (min-width: 1023px) {
+  .intro-text {
+    margin-right: 50px;
   }
 }
 
@@ -178,6 +213,7 @@ ul {
 }
 .blog-slider__content {
   padding-right: 25px;
+  max-width: 80%;
 }
 @media screen and (max-width: 768px) {
   .blog-slider__content {
