@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container w-auto">
             <a class="navbar-brand brand" href="#">Rosana Batista</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -24,13 +24,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-3 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">About me</a>
+                        <a class="nav-link" aria-current="page" href="#about">About me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -40,14 +40,15 @@
         <div class="container intro">
             <div class="row intro-text">
                 <div class="col-lg-12 col-md-12 col-sm-12">
-
                     <h1>Hi, I'm a web developer available for hiring. </h1>
                     <h4>I believe that technology can make a difference and I want
                         to be part of this change, specially if it is focused on accessibility.</h4>
                 </div>
             </div>
         </div>
-        <div class="container">
+    </section>
+    <section>
+        <div class="container" id='about'>
             <div class="row about">
                 <div class="col-lg-6 col-md-12 col-sm-12 center about-me">
                     <h2 class="text-uppercase">About me</h2>
@@ -64,93 +65,106 @@
             </div>
         </div>
     </section>
-    <div class="container projects mt-5">
-        <h2 class="text-uppercase mb-5">Projects</h2>
-        <div class="blog-slider">
-            <div class="blog-slider__wrp swiper-wrapper">
-                <div class="blog-slider__item swiper-slide">
-                    <div class="blog-slider__img">
+    <section class="vh-100 d-flex align-items-center text-center" id='projects'>
+        <div class="container">
+            <h2 class="text-uppercase mb-5">Projects</h2>
+            <div class="blog-slider">
+                <div class="blog-slider__wrp swiper-wrapper">
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
 
-                        <img src="/greatPlaces.jpg" alt="great places logo">
-                    </div>
-                    <div class="blog-slider__content">
-                        <span class="blog-slider__code">NodeJS | ReactJS</span>
-                        <div class="blog-slider__title">greatPlaces</div>
-                        <div class="blog-slider__text">Search engine for restaurants with filters for accessibility.
+                            <img src="/greatPlaces.jpg" alt="great places logo">
                         </div>
-                        <a href="https://great-places-client.herokuapp.com/" class="icon"><i
-                                class="fas fa-external-link-alt"></i></a>
-                        <a href="https://github.com/rosanabatista/great-place-server" class="icon"><i
-                                class="fab fa-github"></i></a>
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code">NodeJS | ReactJS</span>
+                            <div class="blog-slider__title">greatPlaces</div>
+                            <div class="blog-slider__text">Search engine for restaurants with filters for accessibility.
+                            </div>
+                            <a href="https://great-places-client.herokuapp.com/" class="icon" target="_blank"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                            <a href="https://github.com/rosanabatista/great-place-server" class="icon"
+                                target="_blank"><i class="fab fa-github"></i></a>
 
+                        </div>
                     </div>
-                </div>
-                <div class="blog-slider__item swiper-slide">
-                    <div class="blog-slider__img">
-                        <img src="/cuisiner.png" alt="cuisiner logo">
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="/cuisiner.png" alt="cuisiner logo">
+                        </div>
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code">NodeJS | Bootstrap | MongoDB</span>
+                            <div class="blog-slider__title">Cuisiner</div>
+                            <div class="blog-slider__text">Reinvent the way you create groceries lists.</div>
+                            <a href="https://cuisiner-app.herokuapp.com/" class="icon" target="_blank"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                            <a href="https://github.com/querien/Project2" class="icon" target="_blank"><i
+                                    class="fab fa-github"></i></a>
+                        </div>
                     </div>
-                    <div class="blog-slider__content">
-                        <span class="blog-slider__code">NodeJS | Bootstrap | MongoDB</span>
-                        <div class="blog-slider__title">Cuisiner</div>
-                        <div class="blog-slider__text">Reinvent the way you create groceries lists.</div>
-                        <a href="https://cuisiner-app.herokuapp.com/" class="icon"><i
-                                class="fas fa-external-link-alt"></i></a>
-                        <a href="https://github.com/querien/Project2" class="icon"><i class="fab fa-github"></i></a>
-                    </div>
-                </div>
 
-                <div class="blog-slider__item swiper-slide">
-                    <div class="blog-slider__img">
-                        <img src="/findthepic.png" alt="find the pic logo">
+                    <div class="blog-slider__item swiper-slide">
+                        <div class="blog-slider__img">
+                            <img src="/findthepic.png" alt="find the pic logo">
+                        </div>
+                        <div class="blog-slider__content">
+                            <span class="blog-slider__code">JavaScript | HTML | CSS</span>
+                            <div class="blog-slider__title">Find the pic!</div>
+                            <div class="blog-slider__text">Browser game to train your focus and attention.</div>
+                            <a href="https://rosanabatista.github.io/find-the-pic/" target='_blank' class="icon"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                            <a href="https://github.com/rosanabatista/find-the-pic" class="icon" target="_blank"><i
+                                    class="fab fa-github"></i></a>
+                        </div>
                     </div>
-                    <div class="blog-slider__content">
-                        <span class="blog-slider__code">JavaScript | HTML | CSS</span>
-                        <div class="blog-slider__title">Find the pic!</div>
-                        <div class="blog-slider__text">Browser game to train your focus and attention.</div>
-                        <a href="https://rosanabatista.github.io/find-the-pic/" target='_blank' class="icon"><i
-                                class="fas fa-external-link-alt"></i></a>
-                        <a href="https://github.com/rosanabatista/find-the-pic" class="icon"><i
-                                class="fab fa-github"></i></a>
-                    </div>
-                </div>
 
+                </div>
+                <div class="blog-slider__pagination"></div>
             </div>
-            <div class="blog-slider__pagination"></div>
         </div>
-    </div>
-    <footer class="container">
-        <h3>Contact</h3>
-        <div class="row">
-            <p class="location col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                <i class="fas fa-map-marker-alt"></i>
-                <span>Amsterdam, NL</span>
-            </p>
-            <p class="phone_number col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                <i class="fas fa-mobile-alt"></i>
-                <span>+31 6 83341590</span>
-            </p>
-            <p class="email col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                <i class="fas fa-inbox"></i>
-                <span>rosana.psb@gmail.com</span>
-            </p>
-            <p class="github col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                <i class="fab fa-github"></i>
-                <a href="https://github.com/rosanabatista" target="_blank" rel="noopener">rosanabatista
-                </a>
-            </p>
-            <p class="linkedin col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                <i class="fab fa-linkedin-in"></i>
-                <a href="https://linkedin.com/in/rosana-batista-cunha" target="_blank" rel="noopener">Rosana Batista
-                </a>
-            </p>
-            <p class="twitter col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                <i class="fab fa-twitter"></i>
-                <a href="https://twitter.com/rosanabatista" target="_blank" rel="noopener">@rosanabatista
-                </a>
-            </p>
+    </section>
+    <section class="vh-100 d-flex align-items-center" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12 col-md-6 d-flex flex-column align-items-center justify-content-center">
+                    <img src="/IMG_8259.JPG" alt="a picture of Rosana" class="rounded-circle w-50 m-3">
+                </div>
+                <div
+                    class="col-lg-6 col-sm-12 col-md-6 d-flex flex-column align-items-center justify-content-center pt-4 pb-3 contacts">
+                    <h2 class="text-uppercase mb-3">Let's talk. Contact me:</h2>
+                    <p class="location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Amsterdam, NL</span>
+                    </p>
+                    <p class="phone_number">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>+31 6 83341590</span>
+                    </p>
+                    <p class="email">
+                        <i class="fas fa-inbox"></i>
+                        <span>rosana.psb@gmail.com</span>
+                    </p>
+                    <p class="github">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/rosanabatista" target="_blank" rel="noopener"
+                            class="text-decoration-none link">rosanabatista
+                        </a>
+                    </p>
+                    <p class="linkedin">
+                        <i class="fab fa-linkedin-in"></i>
+                        <a href="https://linkedin.com/in/rosana-batista-cunha" target="_blank" rel="noopener"
+                            class="text-decoration-none link">Rosana Batista
+                        </a>
+                    </p>
+                    <p class="twitter">
+                        <i class="fab fa-twitter"></i>
+                        <a href="https://twitter.com/rosanabatista" target="_blank" rel="noopener"
+                            class="text-decoration-none link">@rosanabatista
+                        </a>
+                    </p>
+                </div>
+            </div>
         </div>
-
-    </footer>
+    </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
     <script src="app.js"></script>
 
